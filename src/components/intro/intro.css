@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    padding-top: 115px;
+}
+
+.main-left {
+    width: 40%;
+    padding-right: 50px;
+    text-align: left;
+
+}
+
+.main-right {
+    width: 60%;
+}
+
+.buttons-apply {
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+    border-radius: 3px;
+    width: 165px;
+    height: 35px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+.buttons-demo {
+    background: none;
+    border: 1px solid #F2994A;;
+    border-radius: 3px;
+    width: 165px;
+    height: 35px;
+    color: #F2994A;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.buttons {
+    padding-top: 40px;
+}

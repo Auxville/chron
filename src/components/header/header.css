@@ -1,0 +1,59 @@
+header {
+display: flex;
+flex-direction: row;
+flex-grow: 1;
+align-items: center;
+}
+
+.header-logo {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.header-logo img:hover {
+    transform: scale(1.1);
+}
+
+.header-nav {
+    flex-grow: 10;
+    text-align: left;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li {
+    list-style: none;
+    padding-right: 25px;
+}
+
+.header-nav li a{
+    color: white;
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.header-nav li a:hover {
+    color: #F2994A;
+}
+
+.header-button {
+    flex-grow: 1;
+}
+
+.header-button button {
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+    border-radius: 3px;
+    width: 165px;
+    height: 35px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+.header-button button:hover {
+    transform: scale(1.1);
+}
