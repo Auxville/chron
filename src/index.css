@@ -29,3 +29,23 @@ h3 {
   line-height: 22px;
   color: white;
 }
+
+h4 {
+  font-family:'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 16px;
+  color: #98A7B9;
+  margin-bottom: 0px;
+}
+
+h5 {
+  font-family:'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 10px;
+  color: #98A7B9;
+  margin-top: 5px;
+}

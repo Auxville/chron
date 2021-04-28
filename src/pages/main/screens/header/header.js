@@ -1,3 +1,5 @@
+import React from "react";
+import {BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Logo from './Header_logo.svg'
 import './header.css'
 
@@ -10,7 +12,7 @@ function Header () {
         </div>
         <nav className="header-nav">
             <ul>
-                <li><a href="">О проекте</a></li>
+                <li><Link to="/about">О проекте</Link></li>
                 <li><a href="">Преимущества</a></li>
                 <li><a href="">Цены</a></li>
                 <li><a href="">FAQ</a></li>
