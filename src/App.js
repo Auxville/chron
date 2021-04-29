@@ -1,11 +1,11 @@
 import React from "react";
-import {BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.css';
 import mainPage from './pages/main/main'
 import aboutPage from './pages/about/aboutPage'
-import dashboard from './pages/dashboard/dashboard-main'
+import {Helmet} from 'react-helmet'
+import dashboardReview from './pages/dashboard/dashboarReview'
 import dashboardParticipants from './pages/dashboard/dasboardParticipants'
-import Helmet from 'react-helmet'
 
 function App() {
   return (
@@ -16,13 +16,13 @@ function App() {
       <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-firestore.js"></script>
     </Helmet>
         <Switch>
-          <Route path="/" exact component={mainPage}>
+          <Route exact path="/" exact component={mainPage}>
           </Route>
-          <Route path="/about" exact component={aboutPage}>
+          <Route exact path="/about" exact component={aboutPage}>
           </Route>
-          <Route path="/dashboard" exact component={dashboard}>
+          <Route exact path="/dashboard" component={dashboardReview}>
           </Route>
-          <Route path="/dashboard/participants" exact component={dashboardParticipants}>
+          <Route exact path="/dashboard/participants" component={dashboardParticipants}>
           </Route>
         </Switch>
     </Router>

@@ -1,7 +1,7 @@
 import React from "react";
 import '../dasNav/dashNav.css';
 import DashLogo from './img/logo.svg'
-import {BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 function dashNav () {
     return (

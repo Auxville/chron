@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Logo from './Header_logo.svg'
 import './header.css'
 
@@ -18,7 +18,7 @@ function Header () {
                 <li><a href="">FAQ</a></li>
             </ul>
         </nav>
-        <div className="header-button"><button>Подать заявку</button></div>
+        <div className="header-button"><Link to="/dashboard"><button>Подать заявку</button></Link></div>
     </header>
     )}
 
