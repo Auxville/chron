@@ -1,0 +1,30 @@
+.eventTitle {
+    text-align: left;
+    margin: 70px 0px 0px 65px;
+}
+
+.eventList {
+    width: 100%;
+    padding-top: 60px;
+    
+}
+
+.eventList th{
+    padding: 10px;
+
+}
+
+.green {
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #99EFD0;
+}
+
+.white {
+    font-family:'Montserrat', sans-serif;
+    color: white;
+}

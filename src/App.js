@@ -6,6 +6,7 @@ import aboutPage from './pages/about/aboutPage'
 import {Helmet} from 'react-helmet'
 import dashboardReview from './pages/dashboard/dashboarReview'
 import dashboardParticipants from './pages/dashboard/dasboardParticipants'
+import dashboardEvents from './pages/dashboard/events/dashboardEvents'
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route exact path="/dashboard" component={dashboardReview}>
           </Route>
           <Route exact path="/dashboard/participants" component={dashboardParticipants}>
+          </Route>
+          <Route exact path="/dashboard/events" component={dashboardEvents}>
           </Route>
         </Switch>
     </Router>

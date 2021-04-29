@@ -13,7 +13,7 @@ function dashNav () {
             </div>
             <ul className="dashUl">
                 <li><Link to="/dashboard">Обзор</Link></li>
-                <li><a href="">Мероприятия</a></li>
+                <li><Link to="/dashboard/events">Мероприятия</Link></li>
                 <li><Link to="/dashboard/participants">Спортсмены</Link></li>
                 <li><a href="">Результаты</a></li>
                 <li><a href="">Хронометраж</a></li>
